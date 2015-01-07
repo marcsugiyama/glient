@@ -1,0 +1,14 @@
+{application, glient,
+ [
+  {description, "Grapher client library"},
+  {vsn, "1"},
+  {modules, [
+             glient
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
